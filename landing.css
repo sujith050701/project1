@@ -1,0 +1,532 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#nav {
+    height: 3cm;
+    width: 100%;
+    box-shadow: 2px 2px 4px black;
+    position: relative;
+    bottom: 1cm;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: +1;
+}
+.navbar{
+    height: 1cm;
+    width: 13cm;
+}
+#navbarNavDropdown{
+    position: relative;
+    left: 13cm;
+    display: flex;
+    row-gap: 50px;
+    
+}
+#name{
+    font-size: 200%;
+    position: relative;
+    left: 2cm;
+    color:cornflowerblue
+}
+.hos{
+    height: 2cm;
+    width: 2cm;
+    position: relative;
+    left: 1.8cm;
+}
+#space{
+    display: flex;
+    gap: 30px;
+}
+.img1{
+    height: 10cm;
+    width: 18cm;
+    position: relative;
+    top:cm;
+    left: 16cm;
+}
+.text1{
+    position: relative;
+    left: 2cm;
+    bottom: 7cm;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: slide 2s ease-in-out;
+}
+@keyframes slide{
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.over1{
+    height: 10cm;
+    width: 100%;
+    background-color: blue;
+    position: relative;
+    top: 1cm;
+}
+
+.img2{
+    height: 9cm;
+    width: 10cm;
+    position: relative;
+    left: 7cm;
+    top: 3cm;
+    border-radius: 20px;
+}
+.img3{
+    height: 7cm;
+    width: 6cm;
+    position: relative;
+    top: 8cm;
+    right: 7cm;
+    border: 10px solid white;
+    border-radius: 20px;
+}
+.over2{
+    height: 12cm;
+    width: 100%;
+}
+.text2{
+    position: relative;
+    left: 19cm;
+    bottom: 5.5cm;
+}
+.text3{
+    position: relative;
+    left: 19cm;
+    bottom: 5.5cm;
+}
+.text4{
+    position: relative;
+    left: 19cm;
+    bottom: 5.5cm;
+}
+.text5{
+    position: relative;
+    left: 19cm;
+    bottom: 4.5cm;
+}
+.over2{
+    height: 18cm;
+    width: 100%;
+}
+.text6{
+    position: relative;
+    left: 10cm;
+}
+#card{
+    height: 5cm;
+    width: 10cm;
+    gap: 30px;
+    display: flex;
+    position: relative;
+    left: 2cm;
+    
+}
+
+.car {
+    animation: SlideIn 2s ease-in-out;
+}
+
+@keyframes SlideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.car2 {
+    animation: Slidein 2s ease-in-out;
+}
+
+@keyframes Slidein {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+body{
+    overflow-x: hidden;
+}
+#over3{
+    position: relative;
+    top: 1cm;
+}
+#card1:hover{
+    transform: translateY(-10px);
+    background-color:blue;
+}
+.over8 {
+    height: 5cm;
+    width: 5cm;
+    position: relative;
+    left: 12cm;
+    bottom: 3cm;
+}
+.over7 {
+    height: 5cm;
+    width: 11cm;
+    position: relative;
+    top: 1cm;
+}
+.over9 {
+    height: 5cm;
+    width: 5cm;
+    position: relative;
+    left: 18cm;
+    bottom: 8cm;
+}
+.over10 {
+    height: 5cm;
+    width: 8cm;
+    position: relative;
+    left: 25cm;
+    bottom: 13.5cm;
+
+}
+.foot1 {
+    height: 2cm;
+    width: 3cm;
+    position: relative;
+    left: 0.5cm;
+    bottom: 1cm;
+}
+.tex{
+    position: relative;
+    left: 4cm;
+    top: 1cm;
+}
+.ove{
+    position: relative;
+    top: 2cm;
+    color: white;
+    background-color: blue;
+    height: 8cm;
+
+}
+.text22{
+    position: relative;
+    left: 2cm;
+}
+
+.over9 a{
+    text-decoration: none;
+    color: white;
+}
+.over8 a{
+    text-decoration: none;
+    color: white;
+}
+#navbarNavDropdown :hover{
+    color: rgb(6, 6, 199);
+}
+#navbarNavDropdown a{
+    color:darkblue;
+}
+.img4{
+    height: 15cm;
+    width: 18cm;
+    position: relative;
+    left: 13cm;
+}
+.over4{
+    position: relative;
+    top: 2.5cm;
+    background-color: blue;
+    height: 15cm;
+}
+.but1{
+    border: 2px solid white;
+    border-radius: 20px;
+    position: relative;
+    left: 2cm;
+    bottom: 3cm;
+    color: white;
+    background-color: blue;
+}
+.text6{
+    position: relative;
+    left: 2cm;
+    bottom: 10cm;   
+    color: white; 
+}
+.text7{
+    position: relative;
+    left: 2.2cm;
+    bottom: 10cm;   
+    color: white;
+}
+.img5{
+    height: 5cm;
+    width: 13cm;
+    position: relative;
+    left: 1cm;
+    bottom: 10cm;
+    z-index: ;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+#card2{
+    height: 10cm;
+    width: 7cm;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 3cm;
+}
+.o{
+    position: relative;
+    top: 2cm;
+    left: cm;
+}
+.p{
+    position: relative;
+    top: 4cm;
+}
+.but2{
+    border: 2px solid white;
+    border-radius: 20px;
+    position: relative;
+    left: 14.5cm;  
+}
+.text8{
+    position: relative;
+    left: 11cm;
+    top: 1cm;
+}
+#card3:hover{
+    background-color: blue;
+}
+.over5{
+    height: 8cm;
+    width: 13cm;
+    position: relative;
+    top: 8cm;
+    left: 2.5cm;
+    border: 3px solid white;
+    background-color: blue;
+    border-radius: 20px;
+}
+.but3{
+    border: 2px solid white;
+    border-radius: 20px;
+    position: relative;
+   left: 4.5cm;
+   bottom: 1cm;
+}
+.text9{
+    color: white;
+    position: relative;
+    left: 0.5cm;
+}
+.text10{
+    color: white;
+    position: relative;
+    left: 0.5cm;
+}
+.over6{
+    height: 17cm;
+    width: 12cm;
+    position: relative;
+    top: 2cm;
+    left: 18cm;
+    border: 5px solid black;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.i1{
+    position: relative;
+    top: 0.5cm;
+    left: 0.5cm;
+    border-radius: 10px;
+}
+.i2{
+    position: relative;
+    top: 0.5cm;
+    left: 1cm;
+    border-radius: 10px;
+}
+.i3{
+    position: relative;
+    top: 0.5cm;
+    left: 0.5cm;
+    border-radius: 10px;
+}
+.i4{
+    position: relative;
+    top: 0.5cm;
+    left: 1cm;
+    border-radius: 10px;
+}
+.i5{
+    position: relative;
+    top: 0.5cm;
+    left: 0.5cm;
+    border-radius: 10px;
+}
+.i6{
+    position: relative;
+    top: 0.5cm;
+    left: 2.3cm;
+    border-radius: 10px;
+}
+.but4{
+    position: relative;
+    left: 3.5cm;
+    top: 1.5cm;
+    border-radius: 10px;
+   
+}
+.ove{
+    position: relative;
+    top: 5cm;
+}
+.img2 {
+    animation: slid 3s ease-in-out;
+}
+
+@keyframes slid {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.img3 {
+    animation: slid 3s ease-in-out;
+}
+
+@keyframes slid {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.img1{
+    animation: slidi 3s ease-in;
+}
+
+@keyframes slidi {
+    from {
+        
+        opacity: 0;
+    }
+    to {
+        
+        opacity: 1;
+    }
+}
+.o4 {
+    animation: slideInUp1 3s ease-in;
+}
+
+@keyframes slideInUp1 {
+    from {
+        transform: translateY(30%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.o1 {
+    animation: slideInDown1 3s ease-in;
+}
+
+@keyframes slideInDown1 {
+    from {
+        transform: translateY(60%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.o2 {
+    animation: slideInUp2 3s ease-in;
+}
+
+@keyframes slideInUp2 {
+    from {
+        transform: translateY(90%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.o3 {
+    animation: slideInDown2 3s ease-in;
+}
+
+@keyframes slideInDown2 {
+    from {
+        transform: translateY(110%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.over5{
+    animation: s1 3s ease-in-out;
+}
+@keyframes s1{
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.but4::before {
+    content: '🌟'; /* Icon before the text */
+    color: aqua;
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.but4::after {
+    content: '✅'; /* Icon after the text */
+    color: chartreuse;
+    margin-left: 8px; /* Space between text and icon */
+}
